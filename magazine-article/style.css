@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: georgia, times, serif;
+    font-size: 16px;
+}
+
+article {
+    max-width: 100%px;
+    columns: 3 280px;
+    column-gap: 3rem;
+    column-rule: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+h1 {
+    color: #222;
+  /* Using clamp() for responsive font */
+    font-size: clamp(22px, 8vw, 52px);
+    line-height: 1.2em;
+    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    color: #222;
+    font-size: clamp(18px, 6vw, 28px);
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.364em;
+    margin: 0.4em 0;
+    padding-bottom: 0.25em;
+  }
+
+  h4 {
+    color: #888;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 1.438em;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+
+  p {
+    color: #444;
+    font-size: 1em;
+    line-height: 1.438em;
+    padding: 0 0 0.5em 0;
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    orphans: 3;
+  }
+
+  span {
+    color: #222;
+    font-size: clamp(18px, 4vw, 22px);
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.412em;
+    text-align: center;
+    column-span: all;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    display: block;
+    margin: 2% 0;
+    padding: 0.5em 0;
+    position: relative;
+  }
+
+  figcaption {
+    font-size: 0.68em;
+    color: #666;
+    font-style: italic;
+    line-height: 1.6;
+    margin-top: 6px;
+  }
+
+  header {
+    color: #888;
+    border-bottom: 1px dotted #ccc;
+    column-span: all;
+    display: block;
+    margin: 0 0 2% 0;
+    padding-block: 1em;
+    position: relative;
+  }
+
+  picture {
+    column-span: all;
+    display: block;
+    margin-block: 2%;
+    padding-block: 2%;
+  }
+
+  figure {
+    width: 100%;
+    margin: 4% 2%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+
+
